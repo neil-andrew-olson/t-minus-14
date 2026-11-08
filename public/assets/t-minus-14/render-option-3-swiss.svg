@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#121214" />
+      <stop offset="55%" stop-color="#121214" />
+      <stop offset="100%" stop-color="#0E0E10" />
+    </linearGradient>
+    <radialGradient id="hudGlow" cx="50%" cy="56%" r="44%">
+      <stop offset="0%" stop-color="rgba(0, 71, 171, 0.12)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0)" />
+    </radialGradient>
+  </defs>
+
+  <!-- 9:16 Vertical Canvas Background -->
+  <rect width="1080" height="1920" fill="url(#bgGrad)" />
+  <rect width="1080" height="1920" fill="url(#hudGlow)" />
+
+  <!-- Top Safe Zone (0% - 32% / 0 - 614px): Intentionally pure low-contrast negative space for Mobile OS Clock & Widgets -->
+
+  
+      <!-- Authentic Swiss 1px Structural Grid Hairlines (strictly inside 33% - 84%) -->
+      <g stroke="#F4F4F0" stroke-width="1" opacity="0.18">
+        <line x1="84" y1="640" x2="996" y2="640" />
+        <line x1="84" y1="860" x2="996" y2="860" />
+        <line x1="84" y1="1475" x2="996" y2="1475" />
+        <line x1="84" y1="1588" x2="996" y2="1588" />
+      </g>
+    
+
+  <!-- HEADER BLOCK (34% - 44% / 653px - 845px) -->
+  <g>
+    <rect x="84" y="668" width="912" height="172" rx="2" fill="rgba(24, 24, 28, 0.92)" stroke="#3B82F6" stroke-width="1.8" />
+    <text x="540" y="732" text-anchor="middle" fill="#F4F4F0" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="33" font-weight="800" letter-spacing="2.2">PHASE 04: FINAL CAPSTONE THESIS DEFENSE</text>
+    <line x1="160" y1="756" x2="920" y2="756" stroke="rgba(244, 244, 240, 0.18)" stroke-width="1" />
+    <text x="540" y="802" text-anchor="middle" fill="#3B82F6" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="2.5">STATUS: ACTIVE • T-MINUS 14 DAYS • DUE: NOV 23</text>
+  </g>
+
+  <!-- MILESTONE PIPELINE (46% - 76% / 883px - 1459px) -->
+  
+        <g>
+          <rect x="84" y="884" width="912" height="124" rx="2" fill="rgba(24, 24, 28, 0.92)" stroke="rgba(244, 244, 240, 0.18)" stroke-width="1.5" />
+          
+          <!-- Date Pill -->
+          <rect x="114" y="918" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(244, 244, 240, 0.18)" stroke-width="1" />
+          <text x="182" y="954" text-anchor="middle" fill="#9CA3AF" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="1.5">11.10</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="912" x2="272" y2="980" stroke="rgba(244, 244, 240, 0.18)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="955" fill="#9CA3AF" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600">Literature &amp; Methodology Frozen</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="920" width="198" height="52" rx="2" fill="rgba(0,0,0,0.38)" stroke="#A1A1AA" stroke-width="1.5" />
+          <text x="871" y="953" text-anchor="middle" fill="#A1A1AA" font-family="'JetBrains Mono', monospace" font-size="21" font-weight="700" letter-spacing="1.5">COMPLETE</text>
+        </g>
+      
+
+        <g>
+          <rect x="84" y="1028" width="912" height="124" rx="2" fill="rgba(0, 82, 204, 0.16)" stroke="#3B82F6" stroke-width="2.5" />
+          <rect x="84" y="1028" width="8" height="124" rx="4" fill="#3B82F6" />
+          <!-- Date Pill -->
+          <rect x="114" y="1062" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="#3B82F6" stroke-width="1" />
+          <text x="182" y="1098" text-anchor="middle" fill="#3B82F6" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="1.5">11.15</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="1056" x2="272" y2="1124" stroke="rgba(244, 244, 240, 0.18)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="1099" fill="#F4F4F0" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="700">Empirical Model &amp; Results Finalized</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="1064" width="198" height="52" rx="2" fill="rgba(0,0,0,0.38)" stroke="#3B82F6" stroke-width="1.5" />
+          <text x="871" y="1097" text-anchor="middle" fill="#3B82F6" font-family="'JetBrains Mono', monospace" font-size="21" font-weight="700" letter-spacing="1.5">IN PROGRESS</text>
+        </g>
+      
+
+        <g>
+          <rect x="84" y="1172" width="912" height="124" rx="2" fill="rgba(24, 24, 28, 0.92)" stroke="rgba(244, 244, 240, 0.18)" stroke-width="1.5" />
+          
+          <!-- Date Pill -->
+          <rect x="114" y="1206" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(244, 244, 240, 0.18)" stroke-width="1" />
+          <text x="182" y="1242" text-anchor="middle" fill="#9CA3AF" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="1.5">11.19</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="1200" x2="272" y2="1268" stroke="rgba(244, 244, 240, 0.18)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="1243" fill="#F4F4F0" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="600">Defense Slide Deck v2 Dry Run</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="1208" width="198" height="52" rx="2" fill="rgba(0,0,0,0.38)" stroke="#71717A" stroke-width="1.5" />
+          <text x="871" y="1241" text-anchor="middle" fill="#71717A" font-family="'JetBrains Mono', monospace" font-size="21" font-weight="700" letter-spacing="1.5">PENDING</text>
+        </g>
+      
+
+        <g>
+          <rect x="84" y="1316" width="912" height="124" rx="2" fill="rgba(24, 24, 28, 0.92)" stroke="#F59E0B" stroke-width="1.5" />
+          <rect x="84" y="1316" width="6" height="124" rx="3" fill="#F59E0B" />
+          <!-- Date Pill -->
+          <rect x="114" y="1350" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="#F59E0B" stroke-width="1" />
+          <text x="182" y="1386" text-anchor="middle" fill="#3B82F6" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="1.5">11.23</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="1344" x2="272" y2="1412" stroke="rgba(244, 244, 240, 0.18)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="1387" fill="#F4F4F0" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-size="27" font-weight="700">Formal Committee Defense &amp; Upload</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="1352" width="198" height="52" rx="2" fill="rgba(0,0,0,0.38)" stroke="#F59E0B" stroke-width="1.5" />
+          <text x="871" y="1385" text-anchor="middle" fill="#F59E0B" font-family="'JetBrains Mono', monospace" font-size="21" font-weight="700" letter-spacing="1.5">GOAL</text>
+        </g>
+      
+
+  <!-- BOTTOM MICRO-DIRECTIVE (78% - 82% / 1498px - 1574px) -->
+  <g>
+    <rect x="84" y="1498" width="912" height="76" rx="2" fill="rgba(255,255,255,0.03)" stroke="rgba(244, 244, 240, 0.18)" stroke-width="1.2" />
+    <text x="540" y="1545" text-anchor="middle" fill="#F59E0B" font-family="'JetBrains Mono', monospace" font-size="23" font-weight="700" letter-spacing="3">PRECISION IN EXECUTION, RIGOR IN DATA</text>
+  </g>
+
+  <!-- Bottom Safe Zone (85% - 100% / 1632px - 1920px): Intentionally unobstructed for Flashlight & Camera Touch Targets -->
+</svg>

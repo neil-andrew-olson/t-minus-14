@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#05070A" />
+      <stop offset="55%" stop-color="#090D14" />
+      <stop offset="100%" stop-color="#040608" />
+    </linearGradient>
+    <radialGradient id="hudGlow" cx="50%" cy="56%" r="44%">
+      <stop offset="0%" stop-color="rgba(6, 182, 212, 0.14)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0)" />
+    </radialGradient>
+  </defs>
+
+  <!-- 9:16 Vertical Canvas Background -->
+  <rect width="1080" height="1920" fill="url(#bgGrad)" />
+  <rect width="1080" height="1920" fill="url(#hudGlow)" />
+
+  <!-- Top Safe Zone (0% - 32% / 0 - 614px): Intentionally pure low-contrast negative space for Mobile OS Clock & Widgets -->
+
+  
+      <!-- Telemetry Reticles & Corner Brackets strictly inside 33% - 84% -->
+      <g stroke="#06B6D4" stroke-width="2" fill="none" opacity="0.45">
+        <path d="M 84 662 L 84 638 L 112 638" />
+        <path d="M 996 662 L 996 638 L 968 638" />
+        <path d="M 84 1566 L 84 1590 L 112 1590" />
+        <path d="M 996 1566 L 996 1590 L 968 1590" />
+      </g>
+    
+
+  <!-- HEADER BLOCK (34% - 44% / 653px - 845px) -->
+  <g>
+    <rect x="84" y="668" width="912" height="172" rx="16" fill="rgba(11, 19, 30, 0.88)" stroke="#06B6D4" stroke-width="1.8" />
+    <text x="540" y="732" text-anchor="middle" fill="#ECFEFF" font-family="'JetBrains Mono', 'Space Grotesk', monospace" font-size="33" font-weight="800" letter-spacing="2.2">MISSION FLIGHT CARD: CODEBASE DEPLOY</text>
+    <line x1="160" y1="756" x2="920" y2="756" stroke="rgba(6, 182, 212, 0.28)" stroke-width="1" />
+    <text x="540" y="802" text-anchor="middle" fill="#06B6D4" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="2.5">WINDOW: NOV 23 • T-MINUS 14 DAYS TO T-ZERO</text>
+  </g>
+
+  <!-- MILESTONE PIPELINE (46% - 76% / 883px - 1459px) -->
+  
+        <g>
+          <rect x="84" y="884" width="912" height="124" rx="14" fill="rgba(11, 19, 30, 0.88)" stroke="rgba(6, 182, 212, 0.28)" stroke-width="1.5" />
+          
+          <!-- Date Pill -->
+          <rect x="114" y="918" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(6, 182, 212, 0.28)" stroke-width="1" />
+          <text x="182" y="954" text-anchor="middle" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="1.5">T-14</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="912" x2="272" y2="980" stroke="rgba(6, 182, 212, 0.28)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="955" fill="#94A3B8" font-family="'JetBrains Mono', 'Space Grotesk', monospace" font-size="27" font-weight="600">Architecture Freeze &amp; DB Migrations</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="920" width="198" height="52" rx="8" fill="rgba(0,0,0,0.38)" stroke="#22D3EE" stroke-width="1.5" />
+          <text x="871" y="953" text-anchor="middle" fill="#22D3EE" font-family="'JetBrains Mono', monospace" font-size="21" font-weight="700" letter-spacing="1.5">SYS NOMINAL</text>
+        </g>
+      
+
+        <g>
+          <rect x="84" y="1028" width="912" height="124" rx="14" fill="rgba(6, 182, 212, 0.15)" stroke="#06B6D4" stroke-width="2.5" />
+          <rect x="84" y="1028" width="8" height="124" rx="4" fill="#06B6D4" />
+          <!-- Date Pill -->
+          <rect x="114" y="1062" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="#06B6D4" stroke-width="1" />
+          <text x="182" y="1098" text-anchor="middle" fill="#06B6D4" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="1.5">T-09</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="1056" x2="272" y2="1124" stroke="rgba(6, 182, 212, 0.28)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="1099" fill="#ECFEFF" font-family="'JetBrains Mono', 'Space Grotesk', monospace" font-size="27" font-weight="700">End-to-End Stress Test &amp; Security Scan</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="1064" width="198" height="52" rx="8" fill="rgba(0,0,0,0.38)" stroke="#06B6D4" stroke-width="1.5" />
+          <text x="871" y="1097" text-anchor="middle" fill="#06B6D4" font-family="'JetBrains Mono', monospace" font-size="21" font-weight="700" letter-spacing="1.5">TRANSMITTING</text>
+        </g>
+      
+
+        <g>
+          <rect x="84" y="1172" width="912" height="124" rx="14" fill="rgba(11, 19, 30, 0.88)" stroke="rgba(6, 182, 212, 0.28)" stroke-width="1.5" />
+          
+          <!-- Date Pill -->
+          <rect x="114" y="1206" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(6, 182, 212, 0.28)" stroke-width="1" />
+          <text x="182" y="1242" text-anchor="middle" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="1.5">T-04</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="1200" x2="272" y2="1268" stroke="rgba(6, 182, 212, 0.28)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="1243" fill="#ECFEFF" font-family="'JetBrains Mono', 'Space Grotesk', monospace" font-size="27" font-weight="600">User Acceptance &amp; Release Candidate</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="1208" width="198" height="52" rx="8" fill="rgba(0,0,0,0.38)" stroke="#64748B" stroke-width="1.5" />
+          <text x="871" y="1241" text-anchor="middle" fill="#64748B" font-family="'JetBrains Mono', monospace" font-size="21" font-weight="700" letter-spacing="1.5">ARMED</text>
+        </g>
+      
+
+        <g>
+          <rect x="84" y="1316" width="912" height="124" rx="14" fill="rgba(11, 19, 30, 0.88)" stroke="#FACC15" stroke-width="1.5" />
+          <rect x="84" y="1316" width="6" height="124" rx="3" fill="#FACC15" />
+          <!-- Date Pill -->
+          <rect x="114" y="1350" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="#FACC15" stroke-width="1" />
+          <text x="182" y="1386" text-anchor="middle" fill="#06B6D4" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="1.5">T-00</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="1344" x2="272" y2="1412" stroke="rgba(6, 182, 212, 0.28)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="1387" fill="#ECFEFF" font-family="'JetBrains Mono', 'Space Grotesk', monospace" font-size="27" font-weight="700">Global Mainnet Production Push</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="1352" width="198" height="52" rx="8" fill="rgba(0,0,0,0.38)" stroke="#FACC15" stroke-width="1.5" />
+          <text x="871" y="1385" text-anchor="middle" fill="#FACC15" font-family="'JetBrains Mono', monospace" font-size="21" font-weight="700" letter-spacing="1.5">IGNITION</text>
+        </g>
+      
+
+  <!-- BOTTOM MICRO-DIRECTIVE (78% - 82% / 1498px - 1574px) -->
+  <g>
+    <rect x="84" y="1498" width="912" height="76" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(6, 182, 212, 0.28)" stroke-width="1.2" />
+    <text x="540" y="1545" text-anchor="middle" fill="#FACC15" font-family="'JetBrains Mono', monospace" font-size="23" font-weight="700" letter-spacing="3">FAILURE IS NOT AN OPTION • CLEAR FOR LAUNCH</text>
+  </g>
+
+  <!-- Bottom Safe Zone (85% - 100% / 1632px - 1920px): Intentionally unobstructed for Flashlight & Camera Touch Targets -->
+</svg>

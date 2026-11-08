@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A0908" />
+      <stop offset="55%" stop-color="#14110F" />
+      <stop offset="100%" stop-color="#080706" />
+    </linearGradient>
+    <radialGradient id="hudGlow" cx="50%" cy="56%" r="44%">
+      <stop offset="0%" stop-color="rgba(249, 115, 22, 0.14)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0)" />
+    </radialGradient>
+  </defs>
+
+  <!-- 9:16 Vertical Canvas Background -->
+  <rect width="1080" height="1920" fill="url(#bgGrad)" />
+  <rect width="1080" height="1920" fill="url(#hudGlow)" />
+
+  <!-- Top Safe Zone (0% - 32% / 0 - 614px): Intentionally pure low-contrast negative space for Mobile OS Clock & Widgets -->
+
+  <g><line x1="96" y1="642" x2="96" y2="654" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="116" y1="635" x2="116" y2="661" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="136" y1="630" x2="136" y2="666" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="156" y1="628" x2="156" y2="668" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="176" y1="629" x2="176" y2="667" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="196" y1="633" x2="196" y2="663" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="216" y1="638" x2="216" y2="658" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="236" y1="641" x2="236" y2="655" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="256" y1="642" x2="256" y2="654" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="276" y1="641" x2="276" y2="655" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="296" y1="637" x2="296" y2="659" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="316" y1="633" x2="316" y2="663" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="336" y1="631" x2="336" y2="665" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="356" y1="632" x2="356" y2="664" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="376" y1="636" x2="376" y2="660" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="396" y1="642" x2="396" y2="654" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="416" y1="634" x2="416" y2="662" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="436" y1="628" x2="436" y2="668" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="456" y1="625" x2="456" y2="671" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="476" y1="626" x2="476" y2="670" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="496" y1="630" x2="496" y2="666" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="516" y1="635" x2="516" y2="661" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="536" y1="640" x2="536" y2="656" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="556" y1="641" x2="556" y2="655" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="576" y1="640" x2="576" y2="656" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="596" y1="641" x2="596" y2="655" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="616" y1="638" x2="616" y2="658" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="636" y1="635" x2="636" y2="661" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="656" y1="635" x2="656" y2="661" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="676" y1="637" x2="676" y2="659" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="696" y1="641" x2="696" y2="655" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="716" y1="635" x2="716" y2="661" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="736" y1="628" x2="736" y2="668" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="756" y1="625" x2="756" y2="671" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="776" y1="624" x2="776" y2="672" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="796" y1="628" x2="796" y2="668" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="816" y1="634" x2="816" y2="662" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="836" y1="640" x2="836" y2="656" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="856" y1="639" x2="856" y2="657" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="876" y1="637" x2="876" y2="659" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="896" y1="638" x2="896" y2="658" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="916" y1="641" x2="916" y2="655" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="936" y1="640" x2="936" y2="656" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="956" y1="638" x2="956" y2="658" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/><line x1="976" y1="639" x2="976" y2="657" stroke="#F97316" stroke-width="2" opacity="0.22" stroke-linecap="round"/></g>
+
+  <!-- HEADER BLOCK (34% - 44% / 653px - 845px) -->
+  <g>
+    <rect x="84" y="668" width="912" height="172" rx="16" fill="rgba(26, 21, 18, 0.86)" stroke="#F97316" stroke-width="1.8" />
+    <text x="540" y="732" text-anchor="middle" fill="#FAF5EE" font-family="'Space Grotesk', 'Inter', sans-serif" font-size="33" font-weight="800" letter-spacing="2.2">PROJECT: EP DROP &amp; SHOWCASE LAUNCH</text>
+    <line x1="160" y1="756" x2="920" y2="756" stroke="rgba(245, 158, 11, 0.26)" stroke-width="1" />
+    <text x="540" y="802" text-anchor="middle" fill="#F97316" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="2.5">COUNTDOWN: T-MINUS 14 DAYS • SHOWTIME: NOV 23</text>
+  </g>
+
+  <!-- MILESTONE PIPELINE (46% - 76% / 883px - 1459px) -->
+  
+        <g>
+          <rect x="84" y="884" width="912" height="124" rx="14" fill="rgba(26, 21, 18, 0.86)" stroke="rgba(245, 158, 11, 0.26)" stroke-width="1.5" />
+          
+          <!-- Date Pill -->
+          <rect x="114" y="918" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(245, 158, 11, 0.26)" stroke-width="1" />
+          <text x="182" y="954" text-anchor="middle" fill="#A89F91" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="1.5">NOV 10</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="912" x2="272" y2="980" stroke="rgba(245, 158, 11, 0.26)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="955" fill="#A89F91" font-family="'Space Grotesk', 'Inter', sans-serif" font-size="27" font-weight="600">Final Guitar Stems &amp; Mix Sign-Off</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="920" width="198" height="52" rx="8" fill="rgba(0,0,0,0.38)" stroke="#10B981" stroke-width="1.5" />
+          <text x="871" y="953" text-anchor="middle" fill="#10B981" font-family="'JetBrains Mono', monospace" font-size="21" font-weight="700" letter-spacing="1.5">✓ LOCKED</text>
+        </g>
+      
+
+        <g>
+          <rect x="84" y="1028" width="912" height="124" rx="14" fill="rgba(249, 115, 22, 0.14)" stroke="#F97316" stroke-width="2.5" />
+          <rect x="84" y="1028" width="8" height="124" rx="4" fill="#F97316" />
+          <!-- Date Pill -->
+          <rect x="114" y="1062" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="#F97316" stroke-width="1" />
+          <text x="182" y="1098" text-anchor="middle" fill="#F97316" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="1.5">NOV 14</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="1056" x2="272" y2="1124" stroke="rgba(245, 158, 11, 0.26)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="1099" fill="#FAF5EE" font-family="'Space Grotesk', 'Inter', sans-serif" font-size="27" font-weight="700">Master Delivery &amp; Artwork Export</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="1064" width="198" height="52" rx="8" fill="rgba(0,0,0,0.38)" stroke="#F97316" stroke-width="1.5" />
+          <text x="871" y="1097" text-anchor="middle" fill="#F97316" font-family="'JetBrains Mono', monospace" font-size="21" font-weight="700" letter-spacing="1.5">▶ ACTIVE</text>
+        </g>
+      
+
+        <g>
+          <rect x="84" y="1172" width="912" height="124" rx="14" fill="rgba(26, 21, 18, 0.86)" stroke="rgba(245, 158, 11, 0.26)" stroke-width="1.5" />
+          
+          <!-- Date Pill -->
+          <rect x="114" y="1206" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(245, 158, 11, 0.26)" stroke-width="1" />
+          <text x="182" y="1242" text-anchor="middle" fill="#A89F91" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="1.5">NOV 19</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="1200" x2="272" y2="1268" stroke="rgba(245, 158, 11, 0.26)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="1243" fill="#FAF5EE" font-family="'Space Grotesk', 'Inter', sans-serif" font-size="27" font-weight="600">Full Band Dress Rehearsal</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="1208" width="198" height="52" rx="8" fill="rgba(0,0,0,0.38)" stroke="#78716C" stroke-width="1.5" />
+          <text x="871" y="1241" text-anchor="middle" fill="#78716C" font-family="'JetBrains Mono', monospace" font-size="21" font-weight="700" letter-spacing="1.5">○ QUEUED</text>
+        </g>
+      
+
+        <g>
+          <rect x="84" y="1316" width="912" height="124" rx="14" fill="rgba(26, 21, 18, 0.86)" stroke="#FBBF24" stroke-width="1.5" />
+          <rect x="84" y="1316" width="6" height="124" rx="3" fill="#F59E0B" />
+          <!-- Date Pill -->
+          <rect x="114" y="1350" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="#FBBF24" stroke-width="1" />
+          <text x="182" y="1386" text-anchor="middle" fill="#F97316" font-family="'JetBrains Mono', monospace" font-size="25" font-weight="700" letter-spacing="1.5">NOV 23</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="1344" x2="272" y2="1412" stroke="rgba(245, 158, 11, 0.26)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="1387" fill="#FAF5EE" font-family="'Space Grotesk', 'Inter', sans-serif" font-size="27" font-weight="700">Stage Lights Up &amp; Global Release</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="1352" width="198" height="52" rx="8" fill="rgba(0,0,0,0.38)" stroke="#F59E0B" stroke-width="1.5" />
+          <text x="871" y="1385" text-anchor="middle" fill="#F59E0B" font-family="'JetBrains Mono', monospace" font-size="21" font-weight="700" letter-spacing="1.5">★ LIVE</text>
+        </g>
+      
+
+  <!-- BOTTOM MICRO-DIRECTIVE (78% - 82% / 1498px - 1574px) -->
+  <g>
+    <rect x="84" y="1498" width="912" height="76" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(245, 158, 11, 0.26)" stroke-width="1.2" />
+    <text x="540" y="1545" text-anchor="middle" fill="#FBBF24" font-family="'JetBrains Mono', monospace" font-size="23" font-weight="700" letter-spacing="3">LESS TALK, MORE CHORDS • NAIL THE SOLO</text>
+  </g>
+
+  <!-- Bottom Safe Zone (85% - 100% / 1632px - 1920px): Intentionally unobstructed for Flashlight & Camera Touch Targets -->
+</svg>

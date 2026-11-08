@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#07130F" />
+      <stop offset="55%" stop-color="#0B1D17" />
+      <stop offset="100%" stop-color="#080D0B" />
+    </linearGradient>
+    <radialGradient id="hudGlow" cx="50%" cy="56%" r="44%">
+      <stop offset="0%" stop-color="rgba(212, 168, 83, 0.14)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0)" />
+    </radialGradient>
+  </defs>
+
+  <!-- 9:16 Vertical Canvas Background -->
+  <rect width="1080" height="1920" fill="url(#bgGrad)" />
+  <rect width="1080" height="1920" fill="url(#hudGlow)" />
+
+  <!-- Top Safe Zone (0% - 32% / 0 - 614px): Intentionally pure low-contrast negative space for Mobile OS Clock & Widgets -->
+
+  
+      <!-- Subtle Geometric Evergreen & Gold Frost Motifs within 33% - 84% -->
+      <g opacity="0.16" stroke="#E5B85B" stroke-width="1.5" fill="none">
+        <polygon points="540,636 558,666 522,666" />
+        <polygon points="540,648 566,684 514,684" />
+        <line x1="90" y1="648" x2="480" y2="648" stroke-dasharray="4 6" />
+        <line x1="600" y1="648" x2="990" y2="648" stroke-dasharray="4 6" />
+      </g>
+    
+
+  <!-- HEADER BLOCK (34% - 44% / 653px - 845px) -->
+  <g>
+    <rect x="84" y="668" width="912" height="172" rx="16" fill="rgba(14, 33, 26, 0.82)" stroke="#E5B85B" stroke-width="1.8" />
+    <text x="540" y="732" text-anchor="middle" fill="#F6F4EE" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="33" font-weight="800" letter-spacing="2.2">MISSION: HOLIDAY SHUTDOWN &amp; WRAP-UP</text>
+    <line x1="160" y1="756" x2="920" y2="756" stroke="rgba(212, 168, 83, 0.28)" stroke-width="1" />
+    <text x="540" y="802" text-anchor="middle" fill="#E5B85B" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="25" font-weight="700" letter-spacing="2.5">COUNTDOWN: T-MINUS 14 DAYS • TARGET: NOV 23</text>
+  </g>
+
+  <!-- MILESTONE PIPELINE (46% - 76% / 883px - 1459px) -->
+  
+        <g>
+          <rect x="84" y="884" width="912" height="124" rx="14" fill="rgba(14, 33, 26, 0.82)" stroke="rgba(212, 168, 83, 0.28)" stroke-width="1.5" />
+          
+          <!-- Date Pill -->
+          <rect x="114" y="918" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(212, 168, 83, 0.28)" stroke-width="1" />
+          <text x="182" y="954" text-anchor="middle" fill="#A8B8B0" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="25" font-weight="700" letter-spacing="1.5">NOV 10</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="912" x2="272" y2="980" stroke="rgba(212, 168, 83, 0.28)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="955" fill="#A8B8B0" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="27" font-weight="600">Final Deliverables &amp; Project Lock</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="920" width="198" height="52" rx="8" fill="rgba(0,0,0,0.38)" stroke="#34D399" stroke-width="1.5" />
+          <text x="871" y="953" text-anchor="middle" fill="#34D399" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="21" font-weight="700" letter-spacing="1.5">✓ DONE</text>
+        </g>
+      
+
+        <g>
+          <rect x="84" y="1028" width="912" height="124" rx="14" fill="rgba(212, 168, 83, 0.13)" stroke="#E5B85B" stroke-width="2.5" />
+          <rect x="84" y="1028" width="8" height="124" rx="4" fill="#E5B85B" />
+          <!-- Date Pill -->
+          <rect x="114" y="1062" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="#E5B85B" stroke-width="1" />
+          <text x="182" y="1098" text-anchor="middle" fill="#E5B85B" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="25" font-weight="700" letter-spacing="1.5">NOV 14</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="1056" x2="272" y2="1124" stroke="rgba(212, 168, 83, 0.28)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="1099" fill="#F6F4EE" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="27" font-weight="700">Travel &amp; Logistics Finalized</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="1064" width="198" height="52" rx="8" fill="rgba(0,0,0,0.38)" stroke="#E5B85B" stroke-width="1.5" />
+          <text x="871" y="1097" text-anchor="middle" fill="#E5B85B" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="21" font-weight="700" letter-spacing="1.5">▶ CURRENT</text>
+        </g>
+      
+
+        <g>
+          <rect x="84" y="1172" width="912" height="124" rx="14" fill="rgba(14, 33, 26, 0.82)" stroke="rgba(212, 168, 83, 0.28)" stroke-width="1.5" />
+          
+          <!-- Date Pill -->
+          <rect x="114" y="1206" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(212, 168, 83, 0.28)" stroke-width="1" />
+          <text x="182" y="1242" text-anchor="middle" fill="#A8B8B0" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="25" font-weight="700" letter-spacing="1.5">NOV 18</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="1200" x2="272" y2="1268" stroke="rgba(212, 168, 83, 0.28)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="1243" fill="#F6F4EE" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="27" font-weight="600">Gift &amp; Holiday Prep Closed</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="1208" width="198" height="52" rx="8" fill="rgba(0,0,0,0.38)" stroke="#7C9087" stroke-width="1.5" />
+          <text x="871" y="1241" text-anchor="middle" fill="#7C9087" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="21" font-weight="700" letter-spacing="1.5">○ QUEUED</text>
+        </g>
+      
+
+        <g>
+          <rect x="84" y="1316" width="912" height="124" rx="14" fill="rgba(14, 33, 26, 0.82)" stroke="#F59E0B" stroke-width="1.5" />
+          <rect x="84" y="1316" width="6" height="124" rx="3" fill="#FBBF24" />
+          <!-- Date Pill -->
+          <rect x="114" y="1350" width="136" height="56" rx="8" fill="rgba(255,255,255,0.05)" stroke="#F59E0B" stroke-width="1" />
+          <text x="182" y="1386" text-anchor="middle" fill="#E5B85B" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="25" font-weight="700" letter-spacing="1.5">NOV 23</text>
+          
+          <!-- Divider -->
+          <line x1="272" y1="1344" x2="272" y2="1412" stroke="rgba(212, 168, 83, 0.28)" stroke-width="1.5" />
+
+          <!-- Task Title -->
+          <text x="296" y="1387" fill="#F6F4EE" font-family="'Inter', -apple-system, BlinkMacSystemFont, sans-serif" font-size="27" font-weight="700">Hard Shutdown &amp; Family Departure</text>
+
+          <!-- Status Badge -->
+          <rect x="772" y="1352" width="198" height="52" rx="8" fill="rgba(0,0,0,0.38)" stroke="#FBBF24" stroke-width="1.5" />
+          <text x="871" y="1385" text-anchor="middle" fill="#FBBF24" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="21" font-weight="700" letter-spacing="1.5">★ TARGET</text>
+        </g>
+      
+
+  <!-- BOTTOM MICRO-DIRECTIVE (78% - 82% / 1498px - 1574px) -->
+  <g>
+    <rect x="84" y="1498" width="912" height="76" rx="12" fill="rgba(255,255,255,0.03)" stroke="rgba(212, 168, 83, 0.28)" stroke-width="1.2" />
+    <text x="540" y="1545" text-anchor="middle" fill="#F59E0B" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="23" font-weight="700" letter-spacing="3">FINISH STRONG BEFORE THE TURKEY GETS COLD</text>
+  </g>
+
+  <!-- Bottom Safe Zone (85% - 100% / 1632px - 1920px): Intentionally unobstructed for Flashlight & Camera Touch Targets -->
+</svg>

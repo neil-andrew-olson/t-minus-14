@@ -1,0 +1,22 @@
+{
+  "name": "t-minus-14",
+  "version": "1.0.0",
+  "description": "T-Minus 14: Dynamic Milestone Countdown Lock Screen HUD ? Backward-planned 9:16 mobile lock screen HUD generator & Gemini Argon prompt suite",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate:svg": "node scripts/generate-tminus14-renders.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neil-andrew-olson/t-minus-14.git"
+  },
+  "homepage": "https://neilandrew.dev/t-minus-14.html",
+  "author": "Neil Olson, M.S. <neil@dakotaai.us>",
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
